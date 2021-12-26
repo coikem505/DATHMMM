@@ -10,7 +10,7 @@ if($gio_hang)
 {
     foreach($gio_hang as $key=>$value)
     {
-        // $ma_mon='sluong'.$key;
+        $ma_mon='sluong'.$key;
         if(isset($_POST[$ma_mon])){
             $so_luong=$_POST[$ma_mon];
             if($so_luong!=$value){
