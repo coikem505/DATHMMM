@@ -2,6 +2,8 @@
 
 include_once('./models/database.php');
 //include('./controllers/c_gio_hang.php');
+// them trang thái mới
+
 class M_KhachHang extends database{
  
      function them_khach_hang($hoten,$diachi,$email,$sodienthoai){
